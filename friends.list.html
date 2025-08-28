@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friends list</title>
+</head>
+<body>
+    <h2>Agregar amigos</h2>
+    <input type="text" id="nombre"placeholder="Escribe un nombre">
+    <button onclick="addFriends()">AñadirAmigo</button>
+
+    <ul id="listaAmigos"></ul>
+
+    <hr>
+
+    <h2>sorteo</h2>
+    <button onlcick="sortearAmigo()">Sortear Amigo</button>
+    <p id="resultado"></p>
+
+    <script>
+        let friends = [];
+        
+        function addFriends() {
+            let input = document.getElementById("nombre");
+            let nombre = input.value.trim();
+
+            if(nombre ==="") {
+                alert("por favor, inserte un nombre");
+                return;
+            }
+
+            friends.push(nombre);
+
+            let lista =document.getElementById("listaAmigos");
+            let li = document.createElement("li");
+            li.textContent = nombre;
+            lista.appendChild(li);
+            
+            input.value = "";
+        }
+        if (friends.lenght ===0) {
+            resultado.innerHTML = "No hay amigos para sortear";
+            return;
+        }
+         // 2. Generar índice aleatorio
+        let indiceAleatorio = math.floor(Math.random()* friends.lenght);
+        // 3. Obtener el nombre sorteado
+        let amigoSorteado = friends[indiceAleatorio];
+        // 4. Mostrar el resultado
+        resultado.innerHTML ="El amigo sorteado es <strong>" +amigoSorteado+"</strong>";
+</script>    
+</body>
+</html>
