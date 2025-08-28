@@ -1,5 +1,3 @@
-# Friends-List
-This is a practice for logic programming
 # Friends List & Raffle
 
 ## Project Description
@@ -22,24 +20,22 @@ The main goal is to practice **basic JavaScript**, **DOM manipulation**, and **a
 
 ---
 
-##
+## Tools Used
+- **HTML5** → Structure of the application.  
+- **CSS3** → (Optional, for styling).  
+- **JavaScript** → Logic of the application, DOM manipulation, and raffle.  
 
-Tools Used
+---
 
-HTML5 → Structure of the application.
+## How to Run the Project
+1. Clone the repository or download the files.  
+2. Open the file `index.html` in a web browser.  
+3. Add friends, view the list, and perform the raffle.  
 
-CSS3 → (Optional, for styling).
+---
 
-JavaScript → Logic of the application, DOM manipulation, and raffle.
-
-How to Run the Project
-
-Clone the repository or download the files.
-
-Open the file index.html in a web browser.
-
-Add friends, view the list, and perform the raffle.
-***
+## Developer
+Developed as a practical exercise to practice **basic JavaScript**.
 
 
 ## Application
