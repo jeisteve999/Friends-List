@@ -39,23 +39,6 @@ Main code used in the project:
 <p id="resultado"></p>
 
 
-##
 
-Tools Used
-
-HTML5 → Structure of the application.
-
-CSS3 → (Optional, for styling).
-
-JavaScript → Logic of the application, DOM manipulation, and raffle.
-
-How to Run the Project
-
-Clone the repository or download the files.
-
-Open the file index.html in a web browser.
-
-Add friends, view the list, and perform the raffle.
-***
 
 
